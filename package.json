@@ -1,0 +1,30 @@
+{
+  "name": "server_render_with_expres_y_pug",
+  "version": "1.0.0",
+  "description": "Server render con Express + pug",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francsy/TB027-ServerRenderWithExpress-Pug.git"
+  },
+  "author": "Francsy Ludens (Fran V. Hdez.)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Francsy/TB027-ServerRenderWithExpress-Pug/issues"
+  },
+  "homepage": "https://github.com/Francsy/TB027-ServerRenderWithExpress-Pug#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

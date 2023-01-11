@@ -1,0 +1,41 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#bodyform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flex {
+    display: flex;
+    align-items: center
+    justify-content: center;
+    width: 460px;
+}
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    background-color: antiquewhite;
+    padding: 30px;
+} 
+
+input, label {
+    margin: 10px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer
+}
