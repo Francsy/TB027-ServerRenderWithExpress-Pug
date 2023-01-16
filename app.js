@@ -21,7 +21,7 @@ app.get('/film/:title?', async (req, res) => {
     let response = await fetch(`https://www.omdbapi.com/?t=${req.params.title}&apikey=3bc504a3`);
     let filmData = await response.json();
     res.status(200).render('film', { "film" : filmData}) // si no probar con {film}
-    // res.status(200).send("Has mandado una petición")
+    // res.status(200).send("Has mandado una petición") //El segundo argumento del render son los datos que le pasas a la plantilla
 })
 
 //extrae de la petición del formulario el input con name "title"
